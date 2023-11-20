@@ -1,0 +1,6 @@
+[submodule "libs/enet"]
+	path = libs/enet
+	url = https://github.com/lsalzman/enet
+[submodule "libs/zlib"]
+	path = libs/zlib
+	url = https://github.com/madler/zlib

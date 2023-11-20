@@ -1,0 +1,16 @@
+.vs/
+out/
+res/replays/
+res/screenshots/
+res/maps/autosave/
+res/textures/other/
+res/textures/
+res/sound/
+res/maps/
+res/fonts/
+res/model/
+kfcompilegui/release/
+kfcompilegui/debug/
+
+*.kmp
+*.kmap

@@ -1,0 +1,20 @@
+#pragma once
+
+struct ESurfaceFlags
+{
+	enum
+	{
+		NO_LIGHT = 1,
+		NO_SHADOW_RECEIVE = 2,
+		VERTEX_LIGHTING = 4,
+		PRE_SPLIT_VERTEX = 8,
+		NOT_JUNK = 16,
+		NO_DRAW = 32,
+		FULL_LIGHT = 64,
+		RESERVED1 = 128,
+		RESERVED2 = 256,
+		RESERVED3 = 512,
+		NO_SHADOW_CAST = 1024,
+		GI_SKY_ONLY = 2048,
+	};
+};

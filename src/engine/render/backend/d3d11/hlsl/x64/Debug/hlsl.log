@@ -1,0 +1,31 @@
+﻿Build started 2/5/2023 8:37:46 AM.
+Logging verbosity is set to: Normal.     1>Project "D:\karnagefreak\src\engine\render\backend\d3d11\hlsl\hlsl.vcxproj" on node 2 (FxCompile target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Debug\hlsl.tlog\unsuccessfulbuild".
+       FxCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\fxc.exe /nologo /E"main" /T vs_5_0 /Fo "D:\karnagefreak\src\engine\render\backend\d3d11\x64\Debug\test_vs.cso" /Od /Zi test_vs.hlsl 
+     1>D:\karnagefreak\src\engine\render\backend\d3d11\hlsl\test_vs.hlsl(45,19-114): warning X3206: 'GetLightAtPixel': implicit truncation of vector type
+     1>D:\karnagefreak\src\engine\render\backend\d3d11\hlsl\test_vs.hlsl(45,3-114): warning X3206: implicit truncation of vector type
+     1>D:\karnagefreak\src\engine\render\backend\d3d11\hlsl\test_vs.hlsl(48,12): warning X3078: 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+     1>D:\karnagefreak\src\engine\render\backend\d3d11\hlsl\test_vs.hlsl(50,28-40): error X3004: undeclared identifier 'DynamicLights'
+         
+         compilation failed; no code produced
+     1>Done Building Project "D:\karnagefreak\src\engine\render\backend\d3d11\hlsl\hlsl.vcxproj" (FxCompile target(s)) -- FAILED.
+
+Build FAILED.
+
+       "D:\karnagefreak\src\engine\render\backend\d3d11\hlsl\hlsl.vcxproj" (FxCompile target) (1) ->
+       (FxCompile target) -> 
+         D:\karnagefreak\src\engine\render\backend\d3d11\hlsl\test_vs.hlsl(45,19-114): warning X3206: 'GetLightAtPixel': implicit truncation of vector type
+         D:\karnagefreak\src\engine\render\backend\d3d11\hlsl\test_vs.hlsl(45,3-114): warning X3206: implicit truncation of vector type
+         D:\karnagefreak\src\engine\render\backend\d3d11\hlsl\test_vs.hlsl(48,12): warning X3078: 'i': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used
+
+
+       "D:\karnagefreak\src\engine\render\backend\d3d11\hlsl\hlsl.vcxproj" (FxCompile target) (1) ->
+       (FxCompile target) -> 
+         D:\karnagefreak\src\engine\render\backend\d3d11\hlsl\test_vs.hlsl(50,28-40): error X3004: undeclared identifier 'DynamicLights'
+
+    3 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.19

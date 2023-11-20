@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="light_depth_ps.hlsl" />
+    <FxCompile Include="light_depth_vs.hlsl" />
+    <FxCompile Include="ps_world_lit.hlsl" />
+    <FxCompile Include="ps_world_normal.hlsl" />
+    <FxCompile Include="ps_world_unlit.hlsl" />
+    <FxCompile Include="ps_world_wireframe.hlsl" />
+    <FxCompile Include="test_caustic1_ps.hlsl" />
+    <FxCompile Include="test_caustic2_ps.hlsl" />
+    <FxCompile Include="test_particle_ps.hlsl" />
+    <FxCompile Include="test_particle_vs.hlsl" />
+    <FxCompile Include="test_portal_ps.hlsl" />
+    <FxCompile Include="test_portal_vs.hlsl" />
+    <FxCompile Include="test_ps.hlsl" />
+    <FxCompile Include="test_ps_lightmapped.hlsl" />
+    <FxCompile Include="test_ps_norm.hlsl" />
+    <FxCompile Include="test_ps_norm_tex.hlsl" />
+    <FxCompile Include="test_ps_unlit.hlsl" />
+    <FxCompile Include="test_ps_wireframe.hlsl" />
+    <FxCompile Include="test_vs.hlsl" />
+    <FxCompile Include="debug_line_vs.hlsl" />
+    <FxCompile Include="particle_vs.hlsl" />
+    <FxCompile Include="snow_vs.hlsl" />
+    <FxCompile Include="radiosity_copy_ps.hlsl" />
+    <FxCompile Include="water_ps.hlsl" />
+    <FxCompile Include="smoke_dynamic_vs.hlsl" />
+    <FxCompile Include="smoke_dynamic_ps.hlsl" />
+    <FxCompile Include="smoke_beam_vs.hlsl" />
+    <FxCompile Include="static_mesh_ps.hlsl" />
+    <FxCompile Include="static_mesh_vs.hlsl" />
+    <FxCompile Include="water_vs.hlsl" />
+    <FxCompile Include="matrix.hlsl" />
+    <FxCompile Include="torch_flame_vs.hlsl" />
+    <FxCompile Include="rocket_trail_vs.hlsl" />
+    <FxCompile Include="health_crystal_ps.hlsl" />
+    <FxCompile Include="fullscreen_quad_vs.hlsl" />
+    <FxCompile Include="debug_ps.hlsl" />
+    <FxCompile Include="doomsprite_ps.hlsl" />
+    <FxCompile Include="doomsprite_vs.hlsl" />
+    <FxCompile Include="explosion_vs.hlsl" />
+    <FxCompile Include="final_effects_ps.hlsl" />
+    <FxCompile Include="cube_vs.hlsl" />
+    <FxCompile Include="bullet_hole_vs.hlsl" />
+    <FxCompile Include="atom_projectile_vs.hlsl" />
+    <FxCompile Include="blood_trail_underwater_vs.hlsl" />
+    <FxCompile Include="blood_trail_vs.hlsl" />
+    <FxCompile Include="bounding_box_ps.hlsl" />
+    <FxCompile Include="bounding_box_vs.hlsl" />
+    <FxCompile Include="brain_powerup_ps.hlsl" />
+    <FxCompile Include="brain_powerup_vs.hlsl" />
+    <FxCompile Include="bullet_hole_ps.hlsl" />
+    <FxCompile Include="leak_line_vs.hlsl" />
+    <FxCompile Include="leak_line_ps.hlsl" />
+    <FxCompile Include="hit_spark_vs.hlsl" />
+    <FxCompile Include="portal_travel_vs.hlsl" />
+    <FxCompile Include="particle_ps.hlsl" />
+    <FxCompile Include="particle_noclip_ps.hlsl" />
+    <FxCompile Include="snow_ps.hlsl" />
+    <FxCompile Include="shotgun_shard_ps.hlsl" />
+    <FxCompile Include="shotgun_shard_vs.hlsl" />
+    <FxCompile Include="radiosity_target_ps.hlsl" />
+    <FxCompile Include="radiosity_target_vs.hlsl" />
+    <FxCompile Include="water_effects_ps.hlsl" />
+    <FxCompile Include="world_lightmap_ps.hlsl" />
+    <FxCompile Include="water_splash_vs.hlsl" />
+    <FxCompile Include="test_uav_ps.hlsl" />
+    <FxCompile Include="health_crystal_vs.hlsl" />
+    <FxCompile Include="texture_to_screen_ps.hlsl" />
+    <FxCompile Include="water_effects_cs.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cbuff.hlsl" />
+    <None Include="hlslglobal.hlsl" />
+    <None Include="light.hlsl" />
+    <None Include="utility.hlsl" />
+    <None Include="samplers.hlsl" />
+    <None Include="registers.hlsl" />
+  </ItemGroup>
+</Project>
